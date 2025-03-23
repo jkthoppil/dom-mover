@@ -1,0 +1,33 @@
+{
+  "name": "dom-mover",
+  "version": "1.0.0",
+  "description": "A lightweight, dependency-free JavaScript library for interactive drag-and-drop reordering of DOM elements.",
+  "main": "dom_mover.min.js",
+  "scripts": {
+    "build": "uglifyjs dom_mover.js -c -m -o dom_mover.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkthoppil/dom-mover.git"
+  },
+  "keywords": [
+    "drag",
+    "drop",
+    "drag-and-drop",
+    "sortable",
+    "reorder",
+    "list",
+    "dom",
+    "javascript",
+    "library",
+    "no-dependencies"
+  ],
+  "author": "Jayakrishnan Thoppil (@jkthoppil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkthoppil/dom-mover/issues"
+  },
+  "homepage": "https://github.com/jkthoppil/dom-mover#readme",
+  "files": ["dom_mover.js", "dom_mover.min.js", "LICENSE", "README.md"]
+}
