@@ -14,10 +14,9 @@ DomMover is a lightweight, dependency-free JavaScript library that makes DOM ele
 *   **No Dependencies:**  Written in pure JavaScript, with no external library dependencies (optional jQuery integration).
 *   **Lightweight:** Small file size for fast loading.
 *   **Cross-Browser Compatible:**  Works reliably in modern browsers.
-*  **Mobile Support** (Planned - via touch events)
-*   **Valid HTML Structure:**  Handles table rows ( `<tr>` ) correctly by inserting a `<td>` with appropriate `colspan`.
+*   **Mobile Support** (Planned - via touch events)
 *   **Element Type Validation:** Prevents sorting of invalid element types (e.g., `<tbody>`, `<thead>`).
-* **Duplicate callback control**: The drag callback won't be triggered unnecessarily.
+*   **Duplicate callback control**: The drag callback won't be triggered unnecessarily.
 
 ## Installation
 
